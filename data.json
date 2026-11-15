@@ -9,11 +9,26 @@
       "name": "门店展示",
       "desc": "门头、招牌、外立面",
       "items": [
-        { "name": "门头正面", "file": "images/storefront/01.jpg" },
-        { "name": "门头正面2", "file": "images/storefront/02.jpg" },
-        { "name": "门头正面3", "file": "images/storefront/03.jpg" },
-        { "name": "门头正面4", "file": "images/storefront/04.jpg" },
-        { "name": "门头正面5", "file": "images/storefront/05.jpg" }
+        {
+          "name": "门头正面",
+          "file": "images/storefront/01.jpg"
+        },
+        {
+          "name": "门头正面2",
+          "file": "images/storefront/02.jpg"
+        },
+        {
+          "name": "门头正面3",
+          "file": "images/storefront/03.jpg"
+        },
+        {
+          "name": "门头正面4",
+          "file": "images/storefront/04.jpg"
+        },
+        {
+          "name": "门头正面5",
+          "file": "images/storefront/05.jpg"
+        }
       ]
     },
     {
@@ -21,22 +36,70 @@
       "name": "菜品",
       "desc": "烧烤单品、特色菜",
       "items": [
-        { "name": "五花肉", "file": "images/dishes/五花肉.png" },
-        { "name": "五花趾", "file": "images/dishes/五花趾.jpg" },
-        { "name": "内酯豆腐", "file": "images/dishes/内酯豆腐.jpg" },
-        { "name": "凤梨牛肉", "file": "images/dishes/凤梨牛肉.jpg" },
-        { "name": "凤梨牛肉2", "file": "images/dishes/凤梨牛肉2.jpg" },
-        { "name": "双椒牛肉", "file": "images/dishes/双椒牛肉.jpg" },
-        { "name": "彩椒牛肉", "file": "images/dishes/彩椒牛肉.jpg" },
-        { "name": "彩椒牛肉2", "file": "images/dishes/彩椒牛肉2.jpg" },
-        { "name": "排骨", "file": "images/dishes/排骨.jpg" },
-        { "name": "烤生蚝", "file": "images/dishes/烤生蚝.jpg" },
-        { "name": "烤螺蛳", "file": "images/dishes/烤螺蛳.jpg" },
-        { "name": "烤鲫鱼", "file": "images/dishes/烤鲫鱼.jpg" },
-        { "name": "烤鲫鱼2", "file": "images/dishes/烤鲫鱼2.jpg" },
-        { "name": "烤鲫鱼3", "file": "images/dishes/烤鲫鱼3.jpg" },
-        { "name": "脆骨", "file": "images/dishes/脆骨.jpg" },
-        { "name": "蒜蓉茄子", "file": "images/dishes/蒜蓉茄子.jpg" }
+        {
+          "name": "五花肉",
+          "file": "images/dishes/dish-01.png"
+        },
+        {
+          "name": "五花趾",
+          "file": "images/dishes/dish-02.jpg"
+        },
+        {
+          "name": "内酯豆腐",
+          "file": "images/dishes/dish-03.jpg"
+        },
+        {
+          "name": "凤梨牛肉",
+          "file": "images/dishes/dish-04.jpg"
+        },
+        {
+          "name": "凤梨牛肉2",
+          "file": "images/dishes/dish-05.jpg"
+        },
+        {
+          "name": "双椒牛肉",
+          "file": "images/dishes/dish-06.jpg"
+        },
+        {
+          "name": "彩椒牛肉",
+          "file": "images/dishes/dish-07.jpg"
+        },
+        {
+          "name": "彩椒牛肉2",
+          "file": "images/dishes/dish-08.jpg"
+        },
+        {
+          "name": "排骨",
+          "file": "images/dishes/dish-09.jpg"
+        },
+        {
+          "name": "烤生蚝",
+          "file": "images/dishes/dish-10.jpg"
+        },
+        {
+          "name": "烤螺蛳",
+          "file": "images/dishes/dish-11.jpg"
+        },
+        {
+          "name": "烤鲫鱼",
+          "file": "images/dishes/dish-12.jpg"
+        },
+        {
+          "name": "烤鲫鱼2",
+          "file": "images/dishes/dish-13.jpg"
+        },
+        {
+          "name": "烤鲫鱼3",
+          "file": "images/dishes/dish-14.jpg"
+        },
+        {
+          "name": "脆骨",
+          "file": "images/dishes/dish-15.jpg"
+        },
+        {
+          "name": "蒜蓉茄子",
+          "file": "images/dishes/dish-16.jpg"
+        }
       ]
     },
     {
@@ -44,55 +107,160 @@
       "name": "环境",
       "desc": "店内环境、桌椅、包间",
       "items": [
-        { "name": "展示柜", "file": "images/environment/展示柜.jpg" },
-        { "name": "左上角", "file": "images/environment/左上角.jpg" },
-        { "name": "左侧墙", "file": "images/environment/左侧墙.jpg" },
-        { "name": "左侧墙2", "file": "images/environment/左侧墙2.jpg" },
-        { "name": "右侧墙", "file": "images/environment/右侧墙.jpg" },
-        { "name": "餐位", "file": "images/environment/餐位.jpg" },
-        { "name": "正面展示板", "file": "images/environment/正面展示板.jpg" },
-        { "name": "展示柜2", "file": "images/environment/展示柜2.jpg" }
+        {
+          "name": "展示柜",
+          "file": "images/environment/env-01.jpg"
+        },
+        {
+          "name": "左上角",
+          "file": "images/environment/env-02.jpg"
+        },
+        {
+          "name": "左侧墙",
+          "file": "images/environment/env-03.jpg"
+        },
+        {
+          "name": "左侧墙2",
+          "file": "images/environment/env-04.jpg"
+        },
+        {
+          "name": "右侧墙",
+          "file": "images/environment/env-05.jpg"
+        },
+        {
+          "name": "餐位",
+          "file": "images/environment/env-06.jpg"
+        },
+        {
+          "name": "正面展示板",
+          "file": "images/environment/env-07.jpg"
+        },
+        {
+          "name": "展示柜2",
+          "file": "images/environment/env-08.jpg"
+        }
       ]
     },
     {
       "id": "reference",
       "name": "参考图",
       "desc": "网络菜品素材、风格参考",
-      "items": [ 
-        { "name": "参考图01", "file": "images/reference/01.jpg" },
-        { "name": "参考图02", "file": "images/reference/02.jpg" },
-        { "name": "参考图03", "file": "images/reference/03.jpg" },
-        { "name": "参考图04", "file": "images/reference/04.jpg" },
-        { "name": "参考图05", "file": "images/reference/05.jpg" },
-        { "name": "参考图06", "file": "images/reference/06.jpg" },
-        { "name": "参考图07", "file": "images/reference/07.jpg" },
-        { "name": "参考图08", "file": "images/reference/08.jpg" },
-        { "name": "参考图09", "file": "images/reference/09.jpg" },
-        { "name": "参考图10", "file": "images/reference/10.jpg" },
-        { "name": "参考图11", "file": "images/reference/11.jpg" },
-        { "name": "参考图12", "file": "images/reference/12.jpg" },
-        { "name": "参考图13", "file": "images/reference/13.jpg" },
-        { "name": "参考图14", "file": "images/reference/14.jpg" },
-        { "name": "参考图15", "file": "images/reference/15.jpg" },
-        { "name": "参考图16", "file": "images/reference/16.jpg" },
-        { "name": "参考图17", "file": "images/reference/17.jpg" },
-        { "name": "参考图18", "file": "images/reference/18.jpg" },
-        { "name": "参考图19", "file": "images/reference/19.jpg" },
-        { "name": "参考图20", "file": "images/reference/20.jpg" },
-        { "name": "参考图21", "file": "images/reference/21.jpg" },
-        { "name": "参考图22", "file": "images/reference/22.jpg" }
-       ]
+      "items": [
+        {
+          "name": "参考图01",
+          "file": "images/reference/01.jpg"
+        },
+        {
+          "name": "参考图02",
+          "file": "images/reference/02.jpg"
+        },
+        {
+          "name": "参考图03",
+          "file": "images/reference/03.jpg"
+        },
+        {
+          "name": "参考图04",
+          "file": "images/reference/04.jpg"
+        },
+        {
+          "name": "参考图05",
+          "file": "images/reference/05.jpg"
+        },
+        {
+          "name": "参考图06",
+          "file": "images/reference/06.jpg"
+        },
+        {
+          "name": "参考图07",
+          "file": "images/reference/07.jpg"
+        },
+        {
+          "name": "参考图08",
+          "file": "images/reference/08.jpg"
+        },
+        {
+          "name": "参考图09",
+          "file": "images/reference/09.jpg"
+        },
+        {
+          "name": "参考图10",
+          "file": "images/reference/10.jpg"
+        },
+        {
+          "name": "参考图11",
+          "file": "images/reference/11.jpg"
+        },
+        {
+          "name": "参考图12",
+          "file": "images/reference/12.jpg"
+        },
+        {
+          "name": "参考图13",
+          "file": "images/reference/13.jpg"
+        },
+        {
+          "name": "参考图14",
+          "file": "images/reference/14.jpg"
+        },
+        {
+          "name": "参考图15",
+          "file": "images/reference/15.jpg"
+        },
+        {
+          "name": "参考图16",
+          "file": "images/reference/16.jpg"
+        },
+        {
+          "name": "参考图17",
+          "file": "images/reference/17.jpg"
+        },
+        {
+          "name": "参考图18",
+          "file": "images/reference/18.jpg"
+        },
+        {
+          "name": "参考图19",
+          "file": "images/reference/19.jpg"
+        },
+        {
+          "name": "参考图20",
+          "file": "images/reference/20.jpg"
+        },
+        {
+          "name": "参考图21",
+          "file": "images/reference/21.jpg"
+        },
+        {
+          "name": "参考图22",
+          "file": "images/reference/22.jpg"
+        }
+      ]
     },
     {
       "id": "misc",
       "name": "菜单广告展示图",
       "desc": "菜单、证照、宣传文档",
       "items": [
-        { "name": "菜单", "file": "images/misc/01.jpg" },
-        { "name": "门头广告", "file": "images/misc/02.jpg" },
-        { "name": "套餐主图", "file": "images/misc/03.jpg" },
-        { "name": "套餐主图2", "file": "images/misc/04.jpg" },
-        { "name": "套餐主图3", "file": "images/misc/05.jpg" }
+        {
+          "name": "菜单",
+          "file": "images/misc/01.jpg"
+        },
+        {
+          "name": "门头广告",
+          "file": "images/misc/02.jpg"
+        },
+        {
+          "name": "套餐主图",
+          "file": "images/misc/03.jpg"
+        },
+        {
+          "name": "套餐主图2",
+          "file": "images/misc/04.jpg"
+        },
+        {
+          "name": "套餐主图3",
+          "file": "images/misc/05.jpg"
+        }
       ]
     }
   ]
