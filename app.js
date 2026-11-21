@@ -207,12 +207,29 @@
     sections.forEach(function (s) { sectionObserver.observe(s); });
   }
 
+  // ---------- 板块切换 ----------
+  function initBoardSwitch() {
+    var boards = document.querySelectorAll('.board-btn');
+    var tabsNav = document.getElementById('tabs');
+    boards.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var target = btn.dataset.board;
+        boards.forEach(function (b) { b.classList.toggle('active', b === btn); });
+        document.getElementById('board-recipes').hidden = (target !== 'recipes');
+        document.getElementById('board-gallery').hidden = (target !== 'gallery');
+        // 切到图片素材时显示分组导航，切到配方时隐藏
+        tabsNav.style.display = (target === 'gallery') ? '' : 'none';
+        window.scrollTo({ top: 0 });
+      });
+    });
+  }
+
   // ---------- 启动 ----------
   loadData()
     .then(function (data) {
       document.getElementById('siteName').textContent = data.site.name || '素材库';
       document.getElementById('siteSubtitle').textContent = data.site.subtitle || '';
-      document.title = (data.site.name || '素材库') + ' · 图片素材库';
+      document.title = (data.site.name || '素材库') + ' · 配方与图片素材库';
 
       renderTabs(data.categories);
 
@@ -225,6 +242,7 @@
       // 默认激活第一个分组
       if (data.categories.length > 0) setActiveTab(data.categories[0].id);
       initScrollSpy();
+      initBoardSwitch();
     })
     .catch(function (err) {
       document.getElementById('main').innerHTML =
